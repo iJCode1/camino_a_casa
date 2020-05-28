@@ -99,12 +99,11 @@ const Fundaciones = () => {
 
                   <a
                     className="fa fa-facebook-official"
-                    href="https://www.facebook.com/amigospeludosdetolucaAC/"
+                    href="https://m.me/amigospeludosdetolucaAC"
                     target="__blank"
                   >
-                    <strong> Amigos Peludos Toluca, A.C.</strong>
+                    <strong> Mandar Mensaje</strong>
                   </a>
-
                   <a
                     className="fa fa-whatsapp text-success mb-2"
                     href={
