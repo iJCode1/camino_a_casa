@@ -17,7 +17,7 @@ const Adopcion = (props) => {
 
   return (
     <div className="text-center mt-2 text-info">
-      <h2>Adopción</h2>
+      <h2>Adopción de {props.name}</h2>
     </div>
   );
 };

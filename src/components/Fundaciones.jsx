@@ -27,8 +27,12 @@ const Fundaciones = () => {
         console.log(error); // Muestra si hay error
       }
     };
+
     obtenerDatos(); //Ejecutamos la Funcion
   }, []);
+
+  //-------------------------------------- Adopcion Formulario -----------------------------------------
+
   //-------------------------------------- Elementos -----------------------------------------
   return (
     <div className="container">
@@ -102,7 +106,7 @@ const Fundaciones = () => {
                     href="https://m.me/amigospeludosdetolucaAC"
                     target="__blank"
                   >
-                    <strong> Mandar Mensaje</strong>
+                    <strong> Quiero adoptar a {item.nombre}</strong>
                   </a>
                   <a
                     className="fa fa-whatsapp text-success mb-2"
