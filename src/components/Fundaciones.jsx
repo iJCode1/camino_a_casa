@@ -39,7 +39,7 @@ const Fundaciones = () => {
     <div className="container">
       <div className="text-center ">
         <h1 className="mt-4 mb-4 ">
-          <mark className="d-block p-2 animate__animated animate__backInRight">Perritos Para Adoptar</mark>
+          <mark className="d-block p-2 animate__animated animate__fadeInDown">Perritos Para Adoptar</mark>
         </h1>
       </div>
       <div className="row">
@@ -48,7 +48,7 @@ const Fundaciones = () => {
             className="col-sm-4 col-12 col-sm-8 col-md-6 col-xl-4 mt-4 mb-4"
             key={item.id}
           >
-            <div className="card tamaño mx-auto design__card">
+            <div className="card tamaño mx-auto box__card">
               <div className="card-body">
                 <div className="align-self-center p-4 bd-highlight col-12 col-sm-8 col-md-6 col-xl-4">
                   <img

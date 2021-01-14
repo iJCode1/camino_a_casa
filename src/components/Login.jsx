@@ -2,6 +2,7 @@ import React from "react";
 import "../estilos/style.css";
 import { auth, db } from "../firebase"; // Importamos el auth: autenticación
 import { withRouter } from "react-router-dom"; // Importamos el withRouter para usar el history.props
+import '../estilos/main.css';
 
 const Login = (props) => {
   // Estado de email
@@ -122,7 +123,7 @@ const Login = (props) => {
               src="https://firebasestorage.googleapis.com/v0/b/camino-a-casa-c2275.appspot.com/o/login%2Favatar.svg?alt=media&token=2b7c1c4f-05b3-4908-b3ce-b1e6f2df9b66"
               alt="avatar"
             />
-            <h2 className="title mt-2 mb-1">
+            <h2 className="title mt-2 mb-1 animate__animated animate__backInRight">
               {esRegistro ? "Registrarse" : "Iniciar Sesión"}
             </h2>
             {error ? <div className="alert alert-danger">{error}</div> : null}

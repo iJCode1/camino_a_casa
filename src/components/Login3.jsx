@@ -1,6 +1,7 @@
 import React from "react"; // Importamos React
 import { auth, db } from "../firebase"; // Importamos el auth: autenticación
 import { withRouter } from "react-router-dom"; // Importamos el withRouter para usar el history.props
+import '../estilos/main.css';
 
 const Login = (props) => {
   // Estado de email

@@ -1,10 +1,11 @@
 import React from "react";
+import '../estilos/main.css';
 
 const Adoptar = () => {
   return (
     <div className="container">
-      <div className="col-11 col-sm-12 col-md-12 col-xl-12 mt-4 mb-4">
-        <h1 className=" text-center mb-4 mt-4 ">
+      <div className="col-11 col-sm-12 col-md-12 col-xl-12 mt-4 mb-4 margin--zero">
+        <h1 className=" text-center mb-4 mt-4 animate__animated animate__backInRight">
           AMIGOS PELUDOS DE TOLUCA A.C
         </h1>
         <div className="">

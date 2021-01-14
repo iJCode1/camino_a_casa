@@ -11,7 +11,7 @@ const Navbar = (props) => {
   };
   return (
     <div className="">
-      <nav className="navbar navbar-expand-lg navbar-light bg-warning ">
+      <nav className="navbar navbar-expand-lg navbar-light bg-warning">
         <button
           className="navbar-toggler"
           type="button"
