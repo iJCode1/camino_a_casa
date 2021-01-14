@@ -35,7 +35,7 @@ const Veterinarias = () => {
       <div className="container">
         <div className="text-center ">
           <h1 className="mt-3 mb-4 ">
-            <mark className="d-block p-2">Veterinarias</mark>
+            <mark className="d-block p-2 animate__animated animate__fadeInDown">Veterinarias</mark>
           </h1>
         </div>
         <ul>

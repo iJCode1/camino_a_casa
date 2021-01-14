@@ -14,12 +14,29 @@
     max-width: 100%;
 }
 
+.containerL{
+    margin: 40px 0 0;
+}
+.margin--zero{
+    margin: 0 auto;
+}
+
 footer{
     width: 100%;
 }
 
 @media screen and (max-width: 767px){
     .row{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .container ul{
+        padding: 0;
+    }
+
+    .centerFlex{
         justify-content: center;
     }
 }

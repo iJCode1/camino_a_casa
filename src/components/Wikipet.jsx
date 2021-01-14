@@ -89,7 +89,7 @@ const Wikipet = () => {
       <div className="container">
         <div className="text-center ">
           <h1 className="mt-4 mb-4 ">
-            <mark className="d-block p-2">Wikipet</mark>
+            <mark className="d-block p-2 animate__animated animate__fadeInDown">Wikipet</mark>
           </h1>
         </div>
 

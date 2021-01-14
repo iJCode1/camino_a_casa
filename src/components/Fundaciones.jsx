@@ -39,7 +39,7 @@ const Fundaciones = () => {
     <div className="container">
       <div className="text-center ">
         <h1 className="mt-4 mb-4 ">
-          <mark className="d-block p-2 animate__animated animate__backInRight">Perritos Para Adoptar</mark>
+          <mark className="d-block p-2 animate__animated animate__fadeInDown">Perritos Para Adoptar</mark>
         </h1>
       </div>
       <div className="row">
