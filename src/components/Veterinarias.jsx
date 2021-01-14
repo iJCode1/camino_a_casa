@@ -48,7 +48,7 @@ const Veterinarias = () => {
                 />
               </div>
               <div className="col-11 col-sm-8 col-md-6 col-xl-4 mt-4 mb-4">
-                <li className="list-group-item">
+                <li className="list-group-item design__card">
                   <h3 className="text-center mb-4">
                     <span className="text-success">{item.veterinaria}</span>
                   </h3>
