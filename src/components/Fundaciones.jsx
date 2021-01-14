@@ -2,6 +2,7 @@ import React from "react";
 import { db } from "../firebase"; // Importamos el db:  database
 
 import "../estilos/fundaciones.css";
+import "../estilos/main.css";
 
 const Fundaciones = () => {
   // Estado: Datos del Perrito de Adopcion
@@ -38,7 +39,7 @@ const Fundaciones = () => {
     <div className="container">
       <div className="text-center ">
         <h1 className="mt-4 mb-4 ">
-          <mark className="d-block p-2">Perritos Para Adoptar</mark>
+          <mark className="d-block p-2 animate__animated animate__backInRight">Perritos Para Adoptar</mark>
         </h1>
       </div>
       <div className="row">
@@ -47,7 +48,7 @@ const Fundaciones = () => {
             className="col-sm-4 col-12 col-sm-8 col-md-6 col-xl-4 mt-4 mb-4"
             key={item.id}
           >
-            <div className="card tamaño mx-auto">
+            <div className="card tamaño mx-auto adoption__card">
               <div className="card-body">
                 <div className="align-self-center p-4 bd-highlight col-12 col-sm-8 col-md-6 col-xl-4">
                   <img
@@ -106,7 +107,7 @@ const Fundaciones = () => {
                     href="https://m.me/amigospeludosdetolucaAC"
                     target="__blank"
                   >
-                    <strong> Quiero adoptar a {item.nombre}</strong>
+                    <strong className="adoption--social"> Quiero adoptar a {item.nombre}</strong>
                   </a>
                   <a
                     className="fa fa-whatsapp text-success mb-2"
@@ -116,7 +117,7 @@ const Fundaciones = () => {
                     }
                     target="__blank"
                   >
-                    <strong> Quiero adoptar a {item.nombre}</strong>
+                    <strong className="adoption--social"> Quiero adoptar a {item.nombre}</strong>
                   </a>
                 </div>
               </div>
