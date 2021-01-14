@@ -104,7 +104,7 @@ const Wikipet = () => {
                 />
               </div>
               <div className="col-11 col-sm-8 col-md-6 col-xl-4 mt-4 mb-4">
-                <li className="list-group-item">
+                <li className="list-group-item box__card">
                   <h3 className="text-center mb-4">
                     <span className="text-success ">{item.raza}</span>
                   </h3>

@@ -1,11 +1,17 @@
-.adoption__card{
+.box__card{
     box-shadow: 6px 4px 11px rgb(212, 212, 212);
     border-radius: 10px;
     border: 1px solid rgb(240, 240, 240);
 }
 
-.adoption--social{
+.adoption--social,
+.text--social{
     font-family: 'Poppins', sans-serif;
+}
+
+.mapFull{
+    flex: 100%;
+    max-width: 100%;
 }
 
 footer{

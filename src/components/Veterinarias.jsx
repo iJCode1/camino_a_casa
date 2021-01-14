@@ -1,6 +1,7 @@
 import React from "react";
 import { db } from "../firebase"; // Importamos el db:  database
 import Map from "./Map";
+import '../estilos/main.css'
 
 const Veterinarias = () => {
   // Estado: Datos de las veterinarias
@@ -39,7 +40,7 @@ const Veterinarias = () => {
         </div>
         <ul>
           {veterinaria.map((item) => (
-            <div className="row" key={item.id}>
+            <div className="row centerFlex" key={item.id}>
               <div className="align-self-center p-2 bd-highlight col-11 col-sm-8 col-md-6 col-xl-4">
                 <img
                   className="rounded mx-auto d-block "
@@ -48,7 +49,7 @@ const Veterinarias = () => {
                 />
               </div>
               <div className="col-11 col-sm-8 col-md-6 col-xl-4 mt-4 mb-4">
-                <li className="list-group-item">
+                <li className="list-group-item box__card">
                   <h3 className="text-center mb-4">
                     <span className="text-success">{item.veterinaria}</span>
                   </h3>
@@ -82,11 +83,12 @@ const Veterinarias = () => {
 
                   {item.what ? (
                     <p className="fa fa-whatsapp text-success mb-2">
-                      <strong> Telefono:</strong> {item.what}
+                      <strong className="text--social"> Telefono:</strong> 
+                      <span className="text--social"> {item.what}</span>
                     </p>
                   ) : (
-                    <p>
-                      <strong> Telefono:</strong> {item.tel}
+                    <p className="text--social">
+                      <strong className="text--social"> Telefono:</strong> {item.tel}
                     </p>
                   )}
 
@@ -96,7 +98,7 @@ const Veterinarias = () => {
                       href={item.facebook}
                       target="__blank"
                     >
-                      <strong> {item.veterinaria} </strong>
+                      <strong className="text--social"> {item.veterinaria} </strong>
                     </a>
                   ) : null}
 

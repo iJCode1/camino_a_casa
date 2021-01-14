@@ -7,7 +7,7 @@ const Map = (props) => {
         <h1 className="text-center">Mapa</h1>
         <hr />
         <div className="row justify-content-center">
-          <div className="col-sm-8 ">
+          <div className="col-sm-8 mapFull">
             <iframe
               src={props.map}
               width="100%"

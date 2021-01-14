@@ -48,7 +48,7 @@ const Fundaciones = () => {
             className="col-sm-4 col-12 col-sm-8 col-md-6 col-xl-4 mt-4 mb-4"
             key={item.id}
           >
-            <div className="card tamaño mx-auto adoption__card">
+            <div className="card tamaño mx-auto box__card">
               <div className="card-body">
                 <div className="align-self-center p-4 bd-highlight col-12 col-sm-8 col-md-6 col-xl-4">
                   <img
