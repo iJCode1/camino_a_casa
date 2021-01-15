@@ -62,7 +62,7 @@ const Navbar = (props) => {
               </NavLink>
             </li>
 
-            <li className="nav-item">
+            {/* <li className="nav-item">
               {props.firebaseUser !== null ? (
                 <NavLink
                   className="btn btn-dark mr-1 mt-1 d-block p-2"
@@ -71,7 +71,7 @@ const Navbar = (props) => {
                   Adopción
                 </NavLink>
               ) : null}
-            </li>
+            </li> */}
 
             <li className="nav-item">
               {props.firebaseUser !== null ? (

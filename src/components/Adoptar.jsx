@@ -36,14 +36,13 @@ const Adoptar = () => {
                 cerrado con zaguán.
               </li>
               <li className="list-group-item list-group-item-action">
-                Después de elegir al perro o gato que deseas adoptar llenarás un
-                formulario el cual nos permitirá abrir un panorama de ti y tu
-                familia, posteriormente un miembro de la asociación te hará una
-                entrevista verbal por teléfono, se agenda una visita en tú
-                domicilio para conocer el hogar y a la familia con la cual
-                vivirá el perro o gato, debes de estár de acuerdo en que la
-                asociación le de seguimiento a la adopción (nada acosante,
-                llamada, fotos o visita).
+              Después de elegir al perro que deseas adoptar deberás seleccionar 
+              el botón para mandarnos un mensaje por WhatsApp o Facebook lo cual nos 
+              permitirá abrir un panorama de ti y tu familia, posteriormente un miembro de
+              la asociación te hará una entrevista verbal por teléfono, se agenda una visita
+              en tú domicilio para conocer el hogar y a la familia con la cual  vivirá el perro
+              o gato, debes de estár de acuerdo en que la asociación le de seguimiento a la
+              adopción (nada acosante, llamada, fotos o visita).
               </li>
             </ul>
           </div>
