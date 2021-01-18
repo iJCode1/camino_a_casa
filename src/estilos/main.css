@@ -25,6 +25,23 @@ footer{
     width: 100%;
 }
 
+.footer--container{
+    height: 40px;
+    position: relative;
+    width: 100%;
+}
+
+.footer{
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
 @media screen and (max-width: 767px){
     .row{
         justify-content: center;
