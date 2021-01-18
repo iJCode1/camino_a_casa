@@ -7,8 +7,8 @@ const Inicio = () => {
         <div className="container--home">
           <div className="info">
             <h1 tabindex="0">Camino a Casa</h1>
-            <p tabindex="0">Te ayudamos a tener este primer acercamiento con el perrito que cambiara tu vida.</p>
-            <a tabindex="0" href="./fundacion">Ver Catálogo de Adoptables</a>
+            <p tabindex="0">Te ayudamos a encontrar el perrito que cambiara tu vida.</p>
+            <a className="info--button" tabindex="0" href="./fundacion">Ver Catálogo de Adoptables</a>
           </div>
         </div>
       </section>

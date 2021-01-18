@@ -10,7 +10,7 @@ const Navbar = (props) => {
     });
   };
   return (
-    <div className="">
+    <div className="nav--container">
       <nav className="navbar navbar-expand-lg navbar-light bg-warning">
         <button
           className="navbar-toggler"
