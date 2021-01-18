@@ -23,7 +23,7 @@ const Navbar = (props) => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <Link className="navbar-brand text-dark " to="/fundacion">
+        <Link className="navbar-brand text-dark " to="/inicio">
           Camino a Casa
         </Link>
 

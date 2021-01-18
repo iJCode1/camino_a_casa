@@ -10,6 +10,7 @@ import Wikipet from "./components/Wikipet";
 import Login from "./components/Login";
 import Adoptar from "./components/Adoptar";
 import Adopcion from "./components/Adopcion";
+import Inicio from "./components/Inicio";
 
 function App() {
   /* 
@@ -51,7 +52,7 @@ function App() {
             <Veterinarias />
           </Route>
           <Route path="/">
-            <Fundaciones />
+            <Inicio />
           </Route>
         </Switch>
       </div>
