@@ -15,7 +15,7 @@
 }
 
 .containerL{
-    margin: 40px 0 0;
+    margin: 15px 0 0;
 }
 .margin--zero{
     margin: 0 auto;
@@ -26,20 +26,18 @@ footer{
 }
 
 .footer--container{
-    height: 40px;
     position: relative;
     width: 100%;
 }
 
 .footer{
     align-items: center;
-    bottom: 0;
     display: flex;
-    height: inherit;
+    height: 25px;
     justify-content: center;
-    left: 0;
-    position: absolute;
-    right: 0;
+    /* left: 0;
+    bottom: 0;
+    position: absolute; */
 }
 
 @media screen and (max-width: 767px){
